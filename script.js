@@ -30,11 +30,9 @@ class DomElement{
         }
     }
 };
-
 // DomElement.prototype.create = function(){
 
 // };
-
 let domElement1 = new DomElement('.block', '300px', '300px', 'red', '50px');
 console.log(domElement1);
 domElement1.block();
